@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zay - Contact</title>
+
+        <!-- CSS Files -->
+        <link rel="stylesheet" href="./assets/style/all.min.css">
+        <link rel="stylesheet" href="./assets/style/style.css">
+
+        <!-- Favicon -->
+        <link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
+
+    </head>
+
+    <body>
+
+        <!-- Start Header -->
+        <header>
+
+            <!-- Navbar 1 -->
+            <nav class="nav-bar-1 container">
+                <div>
+                    <a href="#" target="_blank"><i class="icon fa-solid fa-envelope"></i>info@company.com</a>
+                    <a href="#" target="_blank"><i class="icon fa-solid fa-phone-flip"></i>010-020-0340</a>
+                </div>
+                <div>
+                    <a href="https://www.facebook.com/fatimah.mse.750983?mibextid=ZbWKwL" target="_blank"><i class="icon fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/fatimahmse?igshid=NzZlODBkYWE4Ng==" target="_blank"><i class="icon fa-brands fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="icon fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/fatimah-mselmani/" target="_blank"><i class="icon fa-brands fa-linkedin"></i></a>
+                </div>
+            </nav>
+
+            <!-- Navbar 2 -->
+            <nav class="nav-bar-2 container" id="to-top">
+                <div>
+                    <img src="./assets/img/apple-icon.png" alt="icon">
+                    <button class="nav-btn" onclick="show()" id="btn"><i class="bars-icon fa-solid fa-bars"></i></button>
+                </div>
+                <ul class="nav-links" id="links">
+                    <li class="nav-item"><a href="./index.html" class="nav-link">home</a></li>
+                    <li class="nav-item"><a href="./about.html" class="nav-link">about</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">shop</a></li>
+                    <li class="nav-item"><a href="./contact.html" class="nav-link">contact</a></li>
+                </ul>
+                <div class="nav-icons" id="icons">
+                    <i class="icon fa-solid fa-search"></i>
+                    <div class="icon cart"><i class="fa-solid fa-cart-shopping"></i></div>
+                    <div class="icon user"><i class="fa-solid fa-user"></i></div>
+                </div>
+            </nav>
+
+        </header>
+        <!-- End Header -->
+
+        <!-- Start Main -->
+        <main>
+
+            <!-- Section 1 -->
+            <section class="contact-section-1">
+                <div class="title-section">
+                    <h1>Contact Us</h1>
+                    <p>Proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet.</p>
+                </div>
+            </section>
+
+            <!-- Section 2 -->
+            <section class="contact-section-2">
+                <iframe id="map" src=""></iframe>
+                <p id="text">Zay eCommerce Template Location. <i class="fa-solid fa-x"></i></p>
+                <i onclick="showmap()" class="icon fa-solid fa-location-pin"></i>
+            </section>
+
+            <!-- Section 3 -->
+            <Section class="contact-section-3 container">
+                <form>
+                    <div class="first-row">
+                        <div class="name">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="Name">
+                        </div>
+                        <div class="email">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="subject">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" placeholder="Subject">
+                    </div>
+                    <div class="message">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="7" placeholder="Message"></textarea>
+                    </div>
+                    <input class="btn" type="submit" value="LET'S TALK">
+                </form>
+            </Section>
+
+        </main>
+        <!-- End Main -->
+
+
+        <!-- Start Footer -->
+        <footer class="container contact-footer">
+            <div class="top-footer">
+                <div>
+                    <h2 class="green">Zay Shop</h2>
+                    <a href="#"><i class="icon fa-solid fa-location-pin"></i>123 Consectetur at ligula 10660</a>
+                    <a href="#"><i class="icon fa-solid fa-phone-flip"></i>010-020-0340</a>
+                    <a href="#"><i class="icon fa-solid fa-envelope"></i>info@company.com</a>
+                </div>
+                <div>
+                    <h2>Products</h2>
+                    <a href="#">Luxury</a>
+                    <a href="#">Sport Wear</a>
+                    <a href="#">Women's Shoes</a>
+                    <a href="#">Popular Dress</a>
+                    <a href="#">Gym Accessories</a>
+                    <a href="#">Sport Shoes</a>
+                </div>
+                <div>
+                    <h2>Further Info</h2>
+                    <a href="./index.html">Home</a>
+                    <a href="./about.html">About Us</a>
+                    <a href="#">Shop Locations</a>
+                    <a href="#">FAQs</a>
+                    <a href="./contact.html">Contact</a>
+                </div>
+            </div>
+            <div class="middel-footer">
+                <div class="footer-links">
+                    <a href="https://www.facebook.com/fatimah.mse.750983?mibextid=ZbWKwL" target="_blank"><i class="icon fa-brands fa-facebook"></i></a>
+                    <a href="https://instagram.com/fatimahmse?igshid=NzZlODBkYWE4Ng==" target="_blank"><i class="icon fa-brands fa-instagram"></i></a>
+                    <a href="#" target="_blank"><i class="icon fa-brands fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/fatimah-mselmani/" target="_blank"><i class="icon fa-brands fa-linkedin"></i></a>
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="Email address">
+                    <button class="btn">Subscribe</button>
+                </div>
+            </div>
+            <p class="bottom-footer">Copyright &copy; 2021 Company Name | Designed by <a href="#" target="_blank">TemplateMo</a></p>
+        </footer>
+        <!-- End Footer -->
+
+
+        <!-- JS File -->
+        <script src="./assets/JS/script.js"></script>
+        
+    </body>
+</html>
