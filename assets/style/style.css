@@ -67,7 +67,7 @@ footer .bottom-footer a:hover{
 .nav-bar-2 {
     position: relative;
     z-index: 4;
-    height: 85px;
+    height: 80px;
     width: 100%;
     position: fixed;
     display: flex;
@@ -230,7 +230,7 @@ section .title-section p{
     margin-top: 30px;
     width: 30%;
     text-align: center;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
 .home-section-1 .home-categories div img{
@@ -264,7 +264,7 @@ section .title-section p{
     width: 30%;;
     border-radius: 10px;
     padding-bottom: 20px;
-    transition: all 0.4s ease-in-out;
+    transition: all 0.2s ease-in-out;
     cursor: pointer;
 }
 .home-section-2 .home-featureds .card img{
@@ -642,7 +642,8 @@ footer .middel-footer .btn:hover {
     .contact-section-3 form .first-row div{
         width: 100%;
     }
-    .hero-home .slider-img img{
+    .hero-home .slider-img img ,
+    .hero-about img{
         width: 250px;
     }
     h1 {
@@ -696,6 +697,10 @@ footer .middel-footer .btn:hover {
     }
     .hero-about{
         padding: 80px 40px 0 40px;
+    }
+    .hero-home .slider-img img ,
+    .hero-about img{
+        width: 180px;
     }
     .hero-home .slider-img div{
         width: 80% ;
