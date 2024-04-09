@@ -37,9 +37,6 @@ h4 {
     margin-bottom: 10px ;
     font-size: 25px;
 }
-p {
-    line-height: 25px;
-}
 /* Start Header */
 /* Navbar */
 .nav-bar-1 {
@@ -188,7 +185,7 @@ footer .bottom-footer a:hover{
 }
 .hero-home .slider-icon-bottom {
     position: absolute;
-    bottom: 15px;
+    bottom: 2px;
 }
 .hero-home .slider-icon-bottom .icon {
     font-size: 30px;
@@ -653,9 +650,6 @@ footer .middel-footer .btn:hover {
     }
     h2,h3 {
         font-size: 20px;
-    }
-    p {
-        line-height: 20px;
     }
     .about-section-1 .about-services div {
         width: 45%;
