@@ -208,6 +208,13 @@ footer .bottom-footer a:hover{
 section {
     padding: 40px 120px;
 }
+.animate-left {
+    transform: translateX(-100%);
+}
+.animate-left.show-animate {
+    transform: translateX(0);
+    
+}
 section .title-section {
     text-align: center;
 }
@@ -350,7 +357,7 @@ section .title-section p{
     cursor: pointer;
 }
 .contact-section-1, .contact-section-2, .contact-footer, .contact-section-3 {
-    top: 85px;
+    top: 80px;
 }
 .contact-section-2 {
     position: relative;
@@ -533,8 +540,25 @@ footer .middel-footer .btn:hover {
     margin-bottom: 0;
     color: var(--off-white);
     border-top: 1px solid var(--border);
-}
+} 
 /* End Footer */
+/* Scroll To Top */
+.to-top {
+    position: fixed;
+    font-size: 20px;
+    padding: 10px;
+    color: var(--off-white);
+    background-color: var(--light-green);
+    border-radius: 50%;
+    bottom: 15px;
+    right: -40px;
+    z-index: 1;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+.to-top.show{
+    right: 15px;
+}
 @media (min-width:992px) {
     .home-section-1 .home-categories:hover > div:not(:hover),
     .home-section-2 .home-featureds:hover > .card:not(:hover){

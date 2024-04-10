@@ -21,10 +21,18 @@ let text = document.getElementById('text');
 let location_icon = document.getElementById('location-icon');
 let map = document.getElementById('map');
 
+let up = document.getElementById('up');
+
 window.onscroll = function () {
     window.scrollY > 50 ? nav.style.top = '0' : nav.style.top = 'initial';
+    this.scrollY > 200 ? up.classList.add('show') : up.classList.remove('show') ;
 }
-
+function Top () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
 function show () {
     if (nav_links.style.display == 'flex' & nav_icons.style.display == 'flex') {
         nav_links.style.display = 'none';
